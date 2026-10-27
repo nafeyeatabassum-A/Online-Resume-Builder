@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container">
+        <a href="#home" class="logo">N<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section class="hero section" id="home">
+    <div class="container hero-grid">
+        <div>
+            <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Nafeyea Tabassuma A</span></h1>
+            <h3>BCA Student & Web Developer</h3>
+
+            <p class="description">
+                I am a BCA student passionate about technology,
+                programming and creating creative websites.
+                Welcome to my personal portfolio!
+            </p>
+
+            <a href="#projects" class="btn">View My Projects →</a>
+            <a href="#contact" class="btn outline">Contact Me</a>
+        </div>
+
+        <div class="profile-card">
+            <div class="avatar">N</div>
+            <h2>Nafeyea Tabassuma A</h2>
+            <p>Bachelor of Computer Applications</p>
+            <hr>
+
+            <p>🎓 BCA Student</p>
+            <p>🏫 M.M.E.S. Women's College</p>
+            <p>📍 Melvisharam, Tamil Nadu</p>
+            <p>💻 Web Development</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+    <div class="container about-grid">
+        <div>
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+
+            <p>
+                I am a BCA student interested in learning new
+                technologies and developing attractive websites.
+            </p>
+
+            <p>
+                My goal is to improve my programming skills and
+                become a successful software professional.
+            </p>
+
+            <div class="skills">
+                <div><h3>Learning</h3><p>New technologies</p></div>
+                <div><h3>Creativity</h3><p>Website design</p></div>
+                <div><h3>Growth</h3><p>Building skills</p></div>
+            </div>
+        </div>
+
+        <div class="details-card">
+            <h3>Student Details</h3>
+            <p>Name <strong>Nafeyea Tabassuma A</strong></p>
+            <p>Course <strong>BCA</strong></p>
+            <p>Department <strong>Computer Applications</strong></p>
+            <p>College <strong>M.M.E.S. Women's College</strong></p>
+            <p>Academic Year <strong>2026–2027</strong></p>
+        </div>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section education" id="education">
+    <div class="container">
+        <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+        <h2>My <span>Education</span></h2>
+        <p>My educational background and current studies.</p>
+
+        <div class="education-card">
+            <div class="degree">BCA</div>
+            <div>
+                <h3>Bachelor of Computer Applications</h3>
+                <p>M.M.E.S. Women's Arts & Science College</p>
+                <p>📍 Melvisharam, Tamil Nadu</p>
+                <p><strong>Academic Year:</strong> 2026–2027</p>
+                <p><strong>Department:</strong> Computer Applications</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+    <div class="container">
+        <p class="eyebrow">MY WORK</p>
+        <h2>My <span>Projects</span></h2>
+        <p>Some of my academic website projects.</p>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <div class="project-image transport">
+                    <h2>🚌</h2>
+                    <h3>College Transport Portal</h3>
+                </div>
+                <h3>College Transport Information Portal</h3>
+                <p>A website providing college bus routes and transport information.</p>
+                <span class="tag">HTML · CSS · JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image resume">
+                    <h2>📄</h2>
+                    <h3>Resume Craft</h3>
+                </div>
+                <h3>Online Resume Builder</h3>
+                <p>A website for creating and previewing professional resumes.</p>
+                <span class="tag">HTML · CSS · JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image portfolio">
+                    <h2>💻</h2>
+                    <h3>My Portfolio</h3>
+                </div>
+                <h3>Student Portfolio Website</h3>
+                <p>A personal website displaying my education and projects.</p>
+                <span class="tag">HTML · CSS · JavaScript</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+    <div class="container">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Contact <span>Me</span></h2>
+        <p>Feel free to contact me regarding my projects.</p>
+
+        <div class="contact-card">
+            <h3>Contact Information</h3>
+            <p>📧 Email: nafeyea.tabassum@gmail.com</p>
+            <p>🎓 College: M.M.E.S. Women's College</p>
+            <p>📍 Location: Melvisharam, Tamil Nadu</p>
+        </div>
+
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message →</button>
+            <p id="form-note"></p>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer">
+        <h2>N<span>.</span></h2>
+        <p>© 2026 Nafeyea Tabassuma A | Student Portfolio</p>
+        <a href="#home">Back to Top ↑</a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
